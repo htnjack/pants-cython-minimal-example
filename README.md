@@ -23,3 +23,7 @@ Running `./pants package src/python/my_extensions:dist` will build a wheel in th
 Hello Cython!
 ```
 
+## TODO
+- [ ] Build wheels from `.pyx` files
+- [ ] Build wheels (?) that support [Pure Python mode](https://cython.readthedocs.io/en/latest/src/tutorial/pure.html#pure-python-mode)
+- [ ] Run Pexes that depend on Cython code
