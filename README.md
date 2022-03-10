@@ -12,9 +12,9 @@ The goal is to use the `hello` wheel as a dependency of `app`.
 
 ## Building the Cython package
 
-Running `./pants package src/python/my_extensions:dist` will build the Wheel at `dist/dist-0.0.1-cp38-cp38-linux_x86_64.whl`
+Running `./pants package src/python/my_extensions:dist` will build a wheel in the `dist/` folder.
 
-`pip install dist/dist-0.0.1.tar.gz` will install the `hello` package in the current environment.
+`pip install dist/GENERATED_WHEEL` will install the `hello` package in the current environment.
 
 ```python
 >>> import hello
